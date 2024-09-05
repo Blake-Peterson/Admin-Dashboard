@@ -139,15 +139,19 @@ p {
   border-left: gold solid 8px;
   border-radius: 1em;
 }
-.project-cards-facts {
-}
 
 .project-actions {
+  margin-top: 3vh;
+  left: 12vw;
+}
+
+.project-actions img {
+  width: 4vw;
+  height: 4vh;
 }
 
 #announcement-trending-container {
   grid-column: 3/4;
-  background-color: turquoise;
   display: grid;
   grid-template-rows: 1fr 1fr;
 }
@@ -167,12 +171,11 @@ p {
 }
 
 #trending-container {
+  background-color: white;
   grid-row: 2/3;
-  display: grid;
-  grid-template-rows: repeat(4, 30px);
-  gap: 10px;
-}
-
-.individual-trending {
-  margin: 1em;
+  margin-top: 0;
+  width: 10vw;
+  height: 20vh;
+  padding: 8px;
+  margin-left: 1em;
 }
