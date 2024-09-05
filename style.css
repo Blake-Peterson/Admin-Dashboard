@@ -139,6 +139,8 @@ p {
   border-left: gold solid 8px;
   border-radius: 1em;
 }
+.project-cards-facts {
+}
 
 .project-actions {
   margin-top: 3vh;
@@ -173,9 +175,7 @@ p {
 #trending-container {
   background-color: white;
   grid-row: 2/3;
-  margin-top: 0;
-  width: 10vw;
-  height: 20vh;
-  padding: 8px;
-  margin-left: 1em;
+  text-align: center;
+  width: 80%;
+  height: auto;
 }
